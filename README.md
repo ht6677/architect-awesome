@@ -1,6 +1,9 @@
 
 <h1>《后端架构师技术图谱》</h1>
 
+:thumbsup: :thumbsup: :thumbsup:  推荐一个在线搜课程的神器，“[课程搜](https://www.kcsou.com)”：[https://www.kcsou.com/s_架构师/](https://www.kcsou.com/s_%E6%9E%B6%E6%9E%84%E5%B8%88/)
+
+-----------
 
 
 <b style="color:red">推荐:</b> [《Java技术书籍大全》 - awesome-java-books](https://github.com/sorenduan/awesome-java-books)
@@ -243,6 +246,8 @@
 	* [授权、认证](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#授权认证)
 		* [RBAC](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#rbac)
 		* [OAuth2.0](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#oauth20)
+		* [OIDC](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#oidc)
+		* [SAML](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#saml)
 		* [双因素认证（2FA）](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#双因素认证2fa)
 		* [单点登录(SSO)](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#单点登录sso)
 * [常用开源框架](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#常用开源框架)
@@ -763,7 +768,7 @@ TODO
 	* 创建模式:
 		* 抽象工厂模式：抽象工厂模式提供了一个协议来生成一系列的相关或者独立的对象，而不用指定具体对象的类型，如 java.util.Calendar#getInstance()。
 		* 建造模式(Builder)：定义了一个新的类来构建另一个类的实例，以简化复杂对象的创建，如：java.lang.StringBuilder#append()。
-		* 工厂方法：就是 **一个返*** 回具体对象的方法，而不是多个，如 java.lang.Object#toString()、java.lang.Class#newInstance()。
+		* 工厂方法：就是 **一个返回**具体对象的方法，而不是多个，如 java.lang.Object#toString()、java.lang.Class#newInstance()。
 		* 原型模式：使得类的实例能够生成自身的拷贝、如：java.lang.Object#clone()。
 		* 单例模式：全局只有一个实例，如 java.lang.Runtime#getRuntime()。
 	* 行为模式：
@@ -1640,6 +1645,9 @@ TODO
 * [《搭建简易堡垒机》](http://blog.51cto.com/zero01/2062618)
 
 ## 授权、认证
+
+* [授权认证知识库](https://docs.authing.cn/authing/)
+
 ### RBAC 
 * [《基于组织角色的权限设计》](https://www.cnblogs.com/zq8024/p/5003050.html)
 * [《权限系统与RBAC模型概述》](https://www.cnblogs.com/shijiaqi1066/p/3793894.html)
@@ -1648,6 +1656,12 @@ TODO
 ### OAuth2.0
 * [《理解OAuth 2.0》](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 * [《一张图搞定OAuth2.0》](https://www.cnblogs.com/flashsun/p/7424071.html)
+
+### OIDC
+* [理解 OIDC](https://docs.authing.cn/authing/advanced/oidc/li-jie-oidc-liu-cheng)
+
+### SAML
+* [理解 SAML](https://docs.authing.cn/authing/advanced/use-saml/li-jie-saml-liu-cheng)
 
 ### 双因素认证（2FA）
 
@@ -1660,8 +1674,8 @@ TODO
 ### 单点登录(SSO)
 
 * [《单点登录原理与简单实现》](https://www.cnblogs.com/ywlaker/p/6113927.html)
-
 * [CAS单点登录框架](https://github.com/apereo/cas)
+* [使用 Authing 实现单点登录](https://docs.authing.cn/authing/quickstart/implement-sso-with-authing)
 
 # 常用开源框架
 
@@ -2422,7 +2436,8 @@ TODO
 	* Cheat Sheets 大全，单页文档网站。
 * [Tutorialspoint](https://www.tutorialspoint.com/index.htm)
 	* 知名教程网站，提供Java、Python、JS、SQL、大数据等高质量入门教程。
-
+* [LeetCode](https://leetcode.com/problemset/all/)
+	* 知名题库网站，提供Java、Python、C#、C++、算法、SQL、等高质量各程度题库和解决办法。
 
 ## 在线课堂
 
